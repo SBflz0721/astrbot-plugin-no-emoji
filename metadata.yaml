@@ -1,0 +1,12 @@
+name: astrbot_plugin_no_emoji
+display_name: 去表情符号 (No Emoji)
+author: WorkBuddy
+desc: 在机器人发送回复前，自动移除消息中的所有 emoji（Unicode 与自定义 emoji），其余内容保持不变。
+version: 1.0.0
+repo: https://github.com/SBflz0721/astrbot-plugin-no-emoji
+support_platforms:
+  - 全部
+astrbot_version: ">=3.4.0"
+tags:
+  - 工具
+  - 消息处理

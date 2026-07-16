@@ -1,0 +1,32 @@
+{
+  "remove_unicode_emoji": {
+    "type": "bool",
+    "title": "移除 Unicode emoji",
+    "description": "移除标准 Unicode 表情符号（含 ZWJ 组合、肤色修饰、变体选择符等）。",
+    "default": true
+  },
+  "remove_custom_shortcode": {
+    "type": "bool",
+    "title": "移除短代码自定义 emoji",
+    "description": "移除 :smile: 这类 :name: 形式的自定义表情短代码。",
+    "default": true
+  },
+  "remove_discord_custom": {
+    "type": "bool",
+    "title": "移除 Discord 自定义 emoji",
+    "description": "移除 Discord 的 <:name:1234567890> / <a:name:1234567890> 形式自定义表情。",
+    "default": true
+  },
+  "remove_emoji_components": {
+    "type": "bool",
+    "title": "移除表情类消息组件",
+    "description": "整体剔除平台表情/贴纸类组件（如 face / emoji / sticker），这些通常无法用文本正则处理。",
+    "default": true
+  },
+  "clean_whitespace": {
+    "type": "bool",
+    "title": "清理多余空白",
+    "description": "移除 emoji 后，把残留的连续空格/换行压缩为单个空格并去掉首尾空白。关闭则严格只删 emoji、保留原始空白。",
+    "default": true
+  }
+}
